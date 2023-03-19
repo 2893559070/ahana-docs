@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cc1bb772","path":"/views/TS/%E6%8E%A5%E5%8F%A3.html","title":"接口（Interface）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/TS/接口.md"}');export{e as data};
