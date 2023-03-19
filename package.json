@@ -1,0 +1,20 @@
+{
+  "name": "ahan_docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/ahan-pot/ahan_docs.git",
+  "author": "耿子涵 <2893559070@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.61",
+    "vue": "^3.2.47",
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "dependencies": {
+    "vuepress-sidebar-atuo": "^1.0.4"
+  }
+}
