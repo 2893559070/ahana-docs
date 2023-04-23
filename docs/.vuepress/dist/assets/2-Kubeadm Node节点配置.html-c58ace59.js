@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-01848a8d","path":"/views/k8s/%E5%AE%89%E8%A3%85/Kubeadm/2-Kubeadm%20Node%E8%8A%82%E7%82%B9%E9%85%8D%E7%BD%AE.html","title":"Kubeadm Node节点配置","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"views/k8s/安装/Kubeadm/2-Kubeadm Node节点配置.md"}');export{e as data};

@@ -84,7 +84,7 @@ module.exports = [
             },
             {
                 text: 'Mysql',
-                link: '/views/mysql/mysql基础语法.html',
+                link: '/views/mysql/Mysql-SQL.html',
                 activeMatch: '^/views/mysql/',
             },
             {
