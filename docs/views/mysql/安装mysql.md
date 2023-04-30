@@ -162,3 +162,18 @@ yum remove perl-DBD-MySQL
 yum remove mysql
 
 ```
+
+## rpm 安装
+
+  <img :src="$withBase('/mysql/mysqlAz01.png')" alt="foo">
+  <img :src="$withBase('/mysql/mysqlAz02.png')" alt="foo">
+  <img :src="$withBase('/mysql/mysqlAz03.png')" alt="foo">
+  <img :src="$withBase('/mysql/mysqlAz04.png')" alt="foo">
+  
+## 修改密码规则
+
+  <img :src="$withBase('/mysql/mysqlAz05.png')" alt="foo">
+
+## 创建用户用于远程访问
+
+  <img :src="$withBase('/mysql/mysqlAz06.png')" alt="foo">
