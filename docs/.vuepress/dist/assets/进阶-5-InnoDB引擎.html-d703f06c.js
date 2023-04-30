@@ -1,0 +1,1 @@
+import{_ as n,p as t,q as o,R as e,t as a}from"./framework-5866ffd3.js";const _={},c=e("h1",{id:"进阶-5-innodb引擎",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#进阶-5-innodb引擎","aria-hidden":"true"},"#"),a(" 进阶-5-InnoDB引擎")],-1),r=[c];function s(d,i){return t(),o("div",null,r)}const l=n(_,[["render",s],["__file","进阶-5-InnoDB引擎.html.vue"]]);export{l as default};
