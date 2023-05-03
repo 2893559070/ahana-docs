@@ -8,7 +8,7 @@
 
 从CentOS 7.0发布以来，yum源中开始使用Mariadb来代替MySQL的安装(这里什么是mariadb,和mysql有什么区别，有兴趣的小伙伴可以自行查阅）。即使你输入的是yum install -y mysql , 显示的也是Mariadb的安装内容。如果想安装Mysql就必须使用Mysql官方的yum源。
 
-**1. 编写yum源配置文件**
+### **1. 编写yum源配置文件**
 
 ```bash
 #配置好yum源，包括epel源
@@ -33,14 +33,15 @@ wget https://dev.mysql.com/get/mysql80-community-release-el7-4.noarch.rpm ## 复
 yum install mysql80-community-release-el7-4.noarch.rpm
 ```
 
-**2. 生成yum源缓存**
+### **2. 生成yum源缓存**
+
 每次编写了，都需要生成yum缓存，以免安装错误。
 
 ```Bash
  1. yum makecache
 ```
 
-**3. 检查安装的yum源是否存在**
+### **3. 检查安装的yum源是否存在**
 
 ```bash
  1. yum repolist enabled | grep mysql
@@ -55,13 +56,13 @@ yum install mysql80-community-release-el7-4.noarch.rpm
 
   <img :src="$withBase('/mysql/04.png')" alt="foo">
 
-**4. 安装MySQL服务**
+### **4. 安装MySQL服务**
 
 ```bash
  yum install -y  mysql-community-server  # 然后等待安装即可
 ```
 
-**5. 启动MySQL服务**
+### **5. 启动MySQL服务**
 
 ```bash
 # 启动mysqld 服务端
@@ -72,7 +73,8 @@ yum install mysql80-community-release-el7-4.noarch.rpm
 
   <img :src="$withBase('/mysql/05.png')" alt="foo">
 
-**6. 初始化**
+### **6. 初始化**
+
 MySQL服务器初始化（从MySQL 5.7开始）
 
 在 MySQL 服务器初始启动时，如果服务器的数据目录为空，则会发生以下情况：
@@ -88,7 +90,7 @@ grep 'temporary password' /var/log/mysqld.log
 
   <img :src="$withBase('/mysql/06.png')" alt="foo">
 
-**7. 连接mysql修改默认密码**
+### **7. 连接mysql修改默认密码**
 
 ```bash
 mysql -uroot -p'goUaahghs8?r'
@@ -117,7 +119,8 @@ validate-password=OFF
 
 ```
 
-**8. 远程连接**
+### **8. 远程连接**
+
 远程登录还需要授权远程登录
 Mysql默认不允许远程登录，我们需要设置关闭selinux或者防火墙，不关防火墙就开放3306端口；
 
@@ -141,21 +144,21 @@ Mysql默认不允许远程登录，我们需要设置关闭selinux或者防火�
  iptables -t filter -I INPUT -p tcp --dport 3306 -j ACCEPT
 ```
 
-**9. 卸载已经安装的MySQL**
+### **9. 卸载已经安装的MySQL**
 
 ```bash
-//rpm包安装方式卸载
+# rpm包安装方式卸载
 查包名：rpm -qa|grep -i mysql
 删除命令：rpm -e –nodeps 包名
  
-//yum安装方式下载
+# yum安装方式下载
 1.查看已安装的mysql
 命令：rpm -qa | grep -i mysql
 2.卸载mysql
 命令：yum remove mysql-community-server-5.6.36-2.el7.x86_64
 查看mysql的其它依赖：rpm -qa | grep -i mysql
  
-//卸载依赖
+# 卸载依赖
 yum remove mysql-libs
 yum remove mysql-server
 yum remove perl-DBD-MySQL
@@ -170,10 +173,10 @@ yum remove mysql
   <img :src="$withBase('/mysql/mysqlAz03.png')" alt="foo">
   <img :src="$withBase('/mysql/mysqlAz04.png')" alt="foo">
   
-## 修改密码规则
+### 修改密码规则
 
   <img :src="$withBase('/mysql/mysqlAz05.png')" alt="foo">
 
-## 创建用户用于远程访问
+### 创建用户用于远程访问
 
   <img :src="$withBase('/mysql/mysqlAz06.png')" alt="foo">
