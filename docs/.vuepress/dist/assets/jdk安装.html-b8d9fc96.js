@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6089784c","path":"/views/linux/jdk%E5%AE%89%E8%A3%85.html","title":"JDK安装","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"tar安装","slug":"tar安装","link":"#tar安装","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"views/linux/jdk安装.md"}');export{t as data};
