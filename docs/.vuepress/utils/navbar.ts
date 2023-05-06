@@ -123,6 +123,11 @@ module.exports = [
                 activeMatch: '^/views/Docker/',
             },
             {
+                text: 'k8s',
+                link: '/views/k8s/知识点/Kubernetes（k8s）.html',
+                activeMatch: '^/views/k8s/',
+            },
+            {
                 text: 'ElasticSearch',
                 link: '/views/ElasticSearch/Elasticsearch 安装.html',
                 activeMatch: '^/views/ElasticSearch/',
