@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-347999ab","path":"/views/maven/senior.html","title":"Maven 高级","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"views/maven/senior.md"}');export{e as data};
