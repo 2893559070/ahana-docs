@@ -137,6 +137,70 @@
 
 ### 插件
 
+  <img :src="$withBase('/maven/18-3.png')" alt="foo">
+
+``` xml
+  <!-- 构建 -->
+  <build>
+    <!-- 设置插件 -->
+    <plugins>
+      <!-- 具体的插件配置 -->
+      <plugin>
+        <!-- 插件坐标 -->
+      <plugin>
+    </plugins>
+  <build>
+```
+
+  <img :src="$withBase('/maven/18.png')" alt="foo">
+  <img :src="$withBase('/maven/18-1.png')" alt="foo">
+  <img :src="$withBase('/maven/18-2.png')" alt="foo">
+
 ## 依赖管理
 
+### 依赖配置
+
+  <img :src="$withBase('/maven/19-1.png')" alt="foo">
+  <img :src="$withBase('/maven/19.png')" alt="foo">
+
+### 依赖传递
+
+  <img :src="$withBase('/maven/20.png')" alt="foo">
+  <img :src="$withBase('/maven/20-2.png')" alt="foo">
+  <img :src="$withBase('/maven/20-1.png')" alt="foo">
+  <img :src="$withBase('/maven/20-3.png')" alt="foo">
+
+### 可选依赖
+
+排除不要的直接依赖
+
+  <img :src="$withBase('/maven/21.png')" alt="foo">
+
+### 排除依赖
+
+排除不要的间接依赖
+
+  <img :src="$withBase('/maven/22.png')" alt="foo">
+
+### 依赖范围
+
+  <img :src="$withBase('/maven/23.png')" alt="foo">
+
+#### 依赖范围传递性
+
+  <img :src="$withBase('/maven/23-1.png')" alt="foo">
+
 ## 生命周期与插件
+
+### 构建生命周期
+
+  <img :src="$withBase('/maven/24.png')" alt="foo">
+  <img :src="$withBase('/maven/24-1.png')" alt="foo">
+  <img :src="$withBase('/maven/24-2.png')" alt="foo">
+  <img :src="$withBase('/maven/24-3.png')" alt="foo">
+  <img :src="$withBase('/maven/24-4.png')" alt="foo">
+
+### 插件
+
+  <img :src="$withBase('/maven/25.png')" alt="foo">
+  <img :src="$withBase('/maven/25-1.png')" alt="foo">
