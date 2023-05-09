@@ -4,6 +4,8 @@
 
   <img :src="$withBase('/maven/26.png')" alt="foo">
 
+引用工程包后，install一下
+
 ## 聚合
 
 ## 继承
