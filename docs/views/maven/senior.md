@@ -8,6 +8,12 @@
 
 ## 聚合
 
+### 多模块构建维护
+
+  <img :src="$withBase('/maven/27.png')" alt="foo">
+  <img :src="$withBase('/maven/27-1.png')" alt="foo">
+  <img :src="$withBase('/maven/27-2.png')" alt="foo">
+
 ## 继承
 
 ## 属性
