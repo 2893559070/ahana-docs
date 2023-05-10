@@ -93,6 +93,11 @@ module.exports = [
         activeMatch: '^/views/maven/',
       },
       {
+        text: 'SSM框架',
+        link: '/views/ssm/1-spring/1.简介.html',
+        activeMatch: '^/views/ssm/',
+      },
+      {
         text: 'Spring',
         link: '/views/spring/note.html',
         activeMatch: '^/views/spring/',
