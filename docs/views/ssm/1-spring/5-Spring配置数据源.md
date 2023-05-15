@@ -46,3 +46,7 @@
 ## 5-4 抽取jdbc配置文件
 
   <img :src="$withBase('/ssm/spring/15-9.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/15-11.png')" alt="foo">
+
+### 知识要点
+  <img :src="$withBase('/ssm/spring/15-10.png')" alt="foo">
