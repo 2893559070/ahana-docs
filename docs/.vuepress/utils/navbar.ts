@@ -1,5 +1,15 @@
 module.exports = [
   {
+    text: "web3",
+    children: [
+      {
+        text: 'cesium',
+        link: '/views/cesium/cesium入门.html',
+        activeMatch: '^/views/cesium/',
+      }
+    ]
+  },
+  {
     text: '前端',
     children: [
       {
@@ -72,6 +82,11 @@ module.exports = [
         link: '/views/微信小程序/小程序基础.html',
         activeMatch: '^/views/微信小程序/',
       },
+      // {
+      //   text: 'WebGIS',
+      //   link: '/views/gis/1-WebGIS介绍.html',
+      //   activeMatch: '^/views/gis/',
+      // },
     ]
   },
   {
