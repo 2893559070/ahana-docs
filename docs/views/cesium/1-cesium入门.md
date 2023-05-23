@@ -12,6 +12,53 @@
 
 [Cesium下载](https://cesium.com/platform/cesiumjs/)
 
+## Cesium pc使用
+
+```html
+
+<script src="Cesium/Cesium.js"></script>
+<link href="Cesium/Widgets/widgets.css" rel="stylesheet">
+
+<body>
+
+  <div id="cesiumContsiner" />
+
+  <script>
+    Cesium.Ion.defaultAccessToken = "官网注册的token"；
+
+    const viewer = new Cesium.Viewer("cesiumContsiner", {
+      // 配置项
+      animation: false, // 动画
+      timeline: false, // 时间轴
+    })
+    viewer.scene.globe.show = true; // 是否显示地球
+
+    // 使用中主要用于加载实体模型，几何图形 样效设置 动作修改
+    const entity = viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(116.39, 39.31, 500), // 设置默认相机为止 经度 维度 高度
+      point: {
+        pixelSize: 100,
+        color: new Cesium.Color(0,1,0,1)
+      }
+      viewer.trackedEntity = entity;
+    })
+
+    /***
+     * DataSourceCollection 加载矢量数据的主要方式之一
+     *  1. CzmDataSource
+     *  2. KmlDataSource
+     *  3. GeoJsonDataSource
+     * 
+     */
+    viewer.dataSource.add(
+      Cesium.GeoJsonDataSource.load(
+        "json路径"
+      )
+    )
+  </script>
+</body>
+```
+
 ## 基础设置
 
 ### 文件迁移
