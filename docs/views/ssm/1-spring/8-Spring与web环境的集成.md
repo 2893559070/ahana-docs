@@ -7,11 +7,11 @@
   <img :src="$withBase('/ssm/spring/19-2.png')" alt="foo">
 
 ## 8-2 ApplicationContext应用上下文获取方式
- <img :src="$withBase('/ssm/spring/19-4.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-10.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-5.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-6.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-4.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-10.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-5.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-6.png')" alt="foo">
   <img :src="$withBase('/ssm/spring/19-8.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-7.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-9.png')" alt="foo">
- <img :src="$withBase('/ssm/spring/19-11.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-7.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-9.png')" alt="foo">
+  <img :src="$withBase('/ssm/spring/19-11.png')" alt="foo">
