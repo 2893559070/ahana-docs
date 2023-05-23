@@ -1,10 +1,10 @@
 module.exports = [
   {
-    text: "web3",
+    text: "WebGL",
     children: [
       {
         text: 'cesium',
-        link: '/views/cesium/cesium入门.html',
+        link: '/views/cesium/1-cesium入门.html',
         activeMatch: '^/views/cesium/',
       }
     ]
