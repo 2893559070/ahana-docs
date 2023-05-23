@@ -10,11 +10,8 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.61",
-    "vue": "^3.2.47",
-    "vuepress": "^2.0.0-beta.61"
-  },
-  "dependencies": {
-    "vuepress-sidebar-atuo": "^1.0.4"
+    "@vuepress/client": "^2.0.0-beta.62",
+    "vue": "^3.3.4",
+    "vuepress": "^2.0.0-beta.62"
   }
 }

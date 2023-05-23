@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-860a0b14","path":"/views/vue/component%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6.html","title":"component动态组件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/vue/component动态组件.md"}');export{e as data};

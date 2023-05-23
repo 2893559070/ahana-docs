@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b143d0e2","path":"/views/node/Koa.html","title":"Koa2","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"koa2框架","slug":"koa2框架","link":"#koa2框架","children":[]}],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/node/Koa.md"}');export{e as data};

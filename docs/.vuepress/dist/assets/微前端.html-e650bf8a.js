@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-e2141940","path":"/views/%E5%BE%AE%E5%89%8D%E7%AB%AF/%E5%BE%AE%E5%89%8D%E7%AB%AF.html","title":"微前端","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/微前端/微前端.md"}');export{e as data};

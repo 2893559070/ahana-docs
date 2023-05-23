@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-1f2e0aa7","path":"/views/vue/eventBus%E5%85%84%E5%BC%9F%E4%BC%A0%E5%80%BC.html","title":"eventBus","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/vue/eventBus兄弟传值.md"}');export{e as data};
