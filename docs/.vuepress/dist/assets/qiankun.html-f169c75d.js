@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0d58945c","path":"/views/%E5%BE%AE%E5%89%8D%E7%AB%AF/qiankun.html","title":"qiankun","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679214066000,"contributors":[{"name":"耿子涵","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/微前端/qiankun.md"}');export{t as data};
