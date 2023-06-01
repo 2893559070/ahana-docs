@@ -2,10 +2,15 @@ module.exports = [
   {
     text: "WebGL",
     children: [
+      // {
+      //   text: 'cesium',
+      //   link: '/views/cesium/1-cesium入门.html',
+      //   activeMatch: '^/views/cesium/',
+      // },
       {
-        text: 'cesium',
-        link: '/views/cesium/1-cesium入门.html',
-        activeMatch: '^/views/cesium/',
+        text: 'Cesium',
+        link: '/views/cesium/1-入门/1-cesium简介.html',
+        activeMatch: '^/views/cesium/1-入门/',
       }
     ]
   },
