@@ -131,22 +131,7 @@ module.exports = [
         text: 'Maven',
         link: '/views/maven/base.html',
         activeMatch: '^/views/maven/',
-      },
-      {
-        text: 'SSM框架',
-        children: [
-          {
-            text: 'spring',
-            link: '/views/ssm/1-spring/1.简介.html',
-            activeMatch: '^/views/ssm/1-spring/',
-          },
-          {
-            text: 'springMVC',
-            link: '/views/ssm/2-springMVC/9-springMVC简介.html',
-            activeMatch: '^/views/ssm/2-springMVC/',
-          },
-        ]
-      },
+      }
     ]
   },
   {
