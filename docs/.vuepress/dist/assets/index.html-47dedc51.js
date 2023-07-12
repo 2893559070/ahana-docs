@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2db3dcde","path":"/views/web3/threejs/","title":"Threejs","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1688910169000,"contributors":[{"name":"阿涵锅锅","email":"2893559070@qq.com","commits":1}]},"filePathRelative":"views/web3/threejs/index.md"}');export{e as data};

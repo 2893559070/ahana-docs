@@ -9,12 +9,12 @@ module.exports = [
       },
       {
         text: 'Cesium',
-        link: '/views/web3/cesium/index.html',
+        link: '/views/web3/cesium/001.html',
         activeMatch: '^/views/web3/cesium/',
       },
       {
         text: 'Threejs',
-        link: '/views/web3/threejs/index.html',
+        link: '/views/web3/threejs/001.html',
         activeMatch: '^/views/web3/threejs/',
       }
     ]

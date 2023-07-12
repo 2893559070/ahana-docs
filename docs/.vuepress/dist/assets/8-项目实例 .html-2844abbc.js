@@ -1,1 +1,0 @@
-import{_,o as t,c as a,b as e,d as c}from"./app-676abf65.js";const o={},r=e("h1",{id:"_8-项目实例",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_8-项目实例","aria-hidden":"true"},"#"),c(" 8-项目实例")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","8-项目实例 .html.vue"]]);export{l as default};
